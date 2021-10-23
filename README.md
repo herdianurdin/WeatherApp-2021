@@ -20,3 +20,6 @@ expo eject
 cd android
 ./gradlew assembleRelease
 ```
+
+## Screenshot
+![WeatherApp](https://cdn.statically.io/gh/Herdianurdin/WeatherApp-2021/main/weatherapp.png)
