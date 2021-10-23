@@ -1,0 +1,36 @@
+{
+    "expo": {
+        "name": "WeatherApp",
+        "slug": "WeatherApp",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#323741"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+
+        "androidStatusBar": {
+            "hidden": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#323741"
+            },
+            "package": "com.herdianurdin.wheater",
+            "versionCode": 1
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
